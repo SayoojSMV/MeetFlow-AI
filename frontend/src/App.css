@@ -1,3 +1,5 @@
+/* ===== Counter Component ===== */
+/* Styled counter with accent colors and hover/focus states */
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -17,6 +19,8 @@
   }
 }
 
+/* ===== Hero Section ===== */
+/* 3D animated hero area with logo transforms and layered z-index stacking */
 .hero {
   position: relative;
 
@@ -56,6 +60,8 @@
   }
 }
 
+/* ===== Main Content Center ===== */
+/* Flexbox container for centered content with responsive padding */
 #center {
   display: flex;
   flex-direction: column;
@@ -70,6 +76,8 @@
   }
 }
 
+/* ===== Next Steps Section ===== */
+/* Two-column layout for documentation and links with responsive stacking */
 #next-steps {
   display: flex;
   border-top: 1px solid var(--border);
@@ -95,6 +103,8 @@
   }
 }
 
+/* ===== Documentation Column ===== */
+/* Left column with right border (hidden on mobile) */
 #docs {
   border-right: 1px solid var(--border);
 
@@ -104,6 +114,8 @@
   }
 }
 
+/* ===== Social Links List ===== */
+/* Horizontal link list with wrapping behavior on smaller screens */
 #next-steps ul {
   list-style: none;
   padding: 0;
